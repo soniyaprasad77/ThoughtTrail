@@ -13,20 +13,17 @@ Follow these steps to set up Thought Trail on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/thought-trail.git
+   git clone https://github.com/soniyaprasad77/ThoughtTrail.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd thought-trail
+   cd ThoughtTrail
    ```
 
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
 
-4. Create a `.env` file in the root directory and set the following environment variables:
+
+3. Create a `.env` file in the root directory and set the following environment variables:
    ```env
    VITE_APPWRITE_URL = your-appwrite-url
    VITE_APPWRITE_PROJECT_ID = your-appwrite-project-id
@@ -34,7 +31,11 @@ Follow these steps to set up Thought Trail on your local machine:
    VITE_APPWRITE_COLLECTION_ID=your-appwrite-collection-id
    VITE_APPWRITE_BUCKET_ID=your-appwrite-bucket-id
    ```
-
+4. Install dependencies:
+   ```bash
+   npm install
+   ```
+   
 5. Start the development server:
    ```bash
    npm run dev
