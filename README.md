@@ -28,9 +28,11 @@ Follow these steps to set up Thought Trail on your local machine:
 
 4. Create a `.env` file in the root directory and set the following environment variables:
    ```env
-   REACT_APP_APPWRITE_ENDPOINT=your-appwrite-endpoint
-   REACT_APP_APPWRITE_PROJECT=your-appwrite-project-id
-   REACT_APP_APPWRITE_COLLECTION=your-appwrite-collection-id
+   VITE_APPWRITE_URL = your-appwrite-url
+   VITE_APPWRITE_PROJECT_ID = your-appwrite-project-id
+   VITE_APPWRITE_DATABASE_ID= your-appwrite-database-id
+   VITE_APPWRITE_COLLECTION_ID=your-appwrite-collection-id
+   VITE_APPWRITE_BUCKET_ID=your-appwrite-bucket-id
    ```
 
 5. Start the development server:
