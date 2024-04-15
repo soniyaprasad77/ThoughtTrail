@@ -20,8 +20,8 @@ function Header() {
     },
 
     {
-      name: "Signup",
-      slug: "/signup",
+      name: "SignUp",
+      slug: "/SignUp",
       active: !authStatus,
     },
     {
@@ -61,7 +61,7 @@ function Header() {
             {authStatus && (
               <li>
                 <LogoutButton />
-              </li>        
+              </li>
             )}
           </ul>
         </nav>
