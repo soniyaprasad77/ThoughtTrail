@@ -5,7 +5,8 @@ import Logo from './Logo';
 import LogoutButton from './Header/LogoutButton';
 import Button from './Button';
 import Postcard from './Postcard.jsx';
-import PostForm from './PostForm.jsx';
+import PostForm from './post-form/PostForm.jsx';
+import Input from './Input';
 import RTE from './RTE.jsx';
-
-export { Header, Footer, Container, Logo, Postcard, LogoutButton, Button, RTE, PostForm};
+import Select from './Select';
+export { Header, Footer, Container, Logo, Postcard, LogoutButton, Button, RTE, PostForm, Input, Select};
