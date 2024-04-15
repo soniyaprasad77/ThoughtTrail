@@ -14,7 +14,7 @@ const Select = ({ options, label, className, ...props }, ref) => {
          focus:bg-gray-50 duration-200 corder border-gray-200 w-full ${className}`}
       >
         {options?.map((option) => (
-          <option key={option.value} value={option}>
+          <option key={option} value={option}>
             {option}
           </option>
         ))}
