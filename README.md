@@ -41,7 +41,7 @@ Follow these steps to set up Thought Trail on your local machine:
    npm run dev
    ```
 
-6. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view Thought Trail.
+6. Open your browser and go to [http://localhost:3000](http://localhost:5173) to view Thought Trail.
 
 ## Features
 
